@@ -302,6 +302,7 @@ public class Main {
         long mediaSecvential = timpSecvential / numarulDeRulari;
         long mediaParalelLiniar = timpParalelLiniar / numarulDeRulari;
         long mediaParalelCiclic = timpParalelCiclic / numarulDeRulari;
+        System.out.println();
         System.out.println("Media timpului transformarii secventiale: "+mediaSecvential);
         System.out.println("Media timpului transformarii paralele liniare: "+mediaParalelLiniar);
         System.out.println("Media timpului transformarii paralele ciclic: "+mediaParalelCiclic);
